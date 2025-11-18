@@ -1,0 +1,68 @@
+/* Menggunakan font Inter */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #b91c1c;
+  color: #fff;
+}
+.calculator-box {
+  background: linear-gradient(145deg, #b91c1c, #111);
+  border: 2px solid #b91c1c;
+  box-shadow: 0 0 15px #b91c1c66;
+}
+/* Efek klik tombol yang lebih baik */
+.btn-calc {
+  transition: all 0.1s ease-in-out;
+  border: 1px solid #222;
+}
+.btn-calc:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.btn-calc.bg-gray-700 {
+  background-color: #1e1e1e !important;
+}
+.btn-calc.bg-gray-700:hover {
+  background-color: #b91c1c !important;
+  color: #fff;
+}
+.btn-calc.bg-blue-600 {
+  background-color: #b91c1c !important;
+}
+.btn-calc.bg-blue-600:hover {
+  background-color: #dc2626 !important;
+}
+.btn-calc.bg-green-600 {
+  background-color: #dc2626 !important;
+}
+.btn-calc.bg-green-600:hover {
+  background-color: #ef4444 !important;
+}
+.btn-calc.bg-red-600 {
+  background-color: #991b1b !important;
+}
+
+.btn-calc.bg-red-600:hover {
+  background-color: #dc2626 !important;
+}
+.btn-calc.bg-gray-600 {
+  background-color: #2b2b2b !important;
+}
+
+.btn-calc.bg-gray-600:hover {
+  background-color: #b91c1c !important;
+  color: #fff;
+}
+#display {
+  color: #f87171;
+}
+#Zaskia\ Maulina\ Syifa\ 1710624158 {
+  background-color: #b91c1c !important;
+  color: #fff !important;
+  border: 2px solid #7f1d1d;
+  box-shadow: 3px 3px 0 #000;
+  transition: all 0.3s ease;
+}
+
+#Zaskia\ Maulina\ Syifa\ 1710624158:hover {
+  background-color: #dc2626 !important;
+}
